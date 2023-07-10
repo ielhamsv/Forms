@@ -1,0 +1,79 @@
+html{
+    font-family: rubik;
+}
+.container{
+    padding: 1.5rem;
+    margin: .5rem auto;
+    width: 90%;
+    background-color: rgb(238, 238, 238);
+}
+.container form{
+    padding: 1.8rem;
+}
+h2{
+    margin: 1.5rem 0;
+}
+.container form label input{
+    display: block;
+    padding: .5rem 1rem .5rem;
+    margin: .3rem 0;
+    border: 1px gray solid;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100%;
+}
+select{
+    display: block;
+    padding: .5rem 1rem .5rem;
+    margin: .3rem 0;
+    border: 1px gray solid;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100%;
+    color: rgb(78, 78, 78);
+    text-decoration:initial ;
+    font-weight: bold;
+    font-family: italik;
+}
+.container form label input::placeholder{
+    color: rgb(78, 78, 78);
+    text-decoration:initial ;
+    font-weight: bold;
+    font-family: italik;
+}
+.container form label{
+    color: rgb(78, 78, 78);
+    width: 100%;
+    position: relative;
+}
+.container form label img{
+    position: absolute;
+    width: 8%;
+    height: 30%;
+    top: 50%;
+    left: 99%;
+}
+.line1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding-right:1.8rem ;
+}
+.line2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 150px;
+    padding-right:1.8rem ;
+}
+
+#id::placeholder{
+font-family: rubik;
+}
+#id{
+    background-color: rgb(230, 223, 223);
+    border: none;
+}
+.line3{
+    padding-right:1.8rem ;
+    margin: 1.5rem 0;
+}

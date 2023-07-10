@@ -1,0 +1,102 @@
+html{
+    font-size: 100%;
+    font-family: 'exo2semibold';
+    direction: rtl;
+}
+
+body{
+    background-color: rgb(36, 4, 34);
+}
+
+.main{
+    min-width: 865px;
+    max-width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem auto;
+}
+#right{
+    grid-column: 1/2;
+    background-color: white;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+#left{
+    grid-column: 2/4;
+    background: url(./img/processed-615eb477-d056-49f5-8b87-4103fed3a186_PqtgGCpi.jpeg.JPEG) 0 0 / cover no-repeat;
+}
+#right h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+#right form{
+    padding: 1.5rem;
+    text-align: right;
+}
+#right form input{
+    width: 90%;
+    display: block;
+    margin: 1.5rem 0;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#right form a{
+    text-decoration: none;
+    color:rgb(53, 0, 49) ;
+}
+#right form a::before{
+    content: ' ?';
+}
+#right form button{
+    display: block;
+    background-color:rgb(53, 0, 49) ;
+    padding: 1rem;
+    border: none;
+    color: white;
+    margin: 1.5rem auto;
+    width: 90%;
+    border-radius: 3px;
+}
+#right a{
+    text-decoration: none;
+    color: black;
+}
+#right a::before{
+    content: ' ?';
+}
+#left{
+    text-align: left;
+    padding: 1.5rem;
+    direction: ltr;
+}
+#left span{
+    margin: 1rem;
+}
+#left h2{
+    margin: 3rem 2rem 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    word-spacing: 1rem;
+}
+#left h2 span{
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.384);
+}
+#left p{
+    width: 50%;
+    margin: 1rem 2rem 3rem;
+}
+#left div i{
+    margin:2.5rem .5rem 0;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(169, 183, 231);
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+}
